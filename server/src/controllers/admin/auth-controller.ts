@@ -1,9 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import adminAuthSchema from '../../models/admin/admin-schema';
-import HttpError from '../../models/Http-Error';
+import adminAuthSchema from '../../models/admin/admin-schema.js';
+import HttpError from '../../models/Http-Error.js';
 import bcrypt from 'bcryptjs';
-import { IAdmin } from '../../types/admin.types';
+import { IAdmin } from '../../types/admin.types.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
