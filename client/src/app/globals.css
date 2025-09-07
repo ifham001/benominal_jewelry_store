@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap'); */
+
+@import "tailwindcss";
+
+body{
+    color: #1B4332;
+
+    
+}
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #1B4332 transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-image: repeating-linear-gradient(
+      to right,
+      #1B4332,
+      #1B4332 2px,
+      transparent 2px,
+      transparent 4px
+    );
+    border-radius: 10px;
+  }
+  
+
+
+
