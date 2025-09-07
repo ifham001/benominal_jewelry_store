@@ -5,15 +5,15 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Import routes
-import authrouter from './src/routes/users/auth-route';
-import adminAuthRoute from './src/routes/admin/auth-route';
-import manageProductRouter from './src/routes/admin/manageProduct-route';
-import userproductRouter from './src/routes/users/products-route';
-import orderRoutes from './src/routes/users/order-route';
-import manageOrdersRoute from './src/routes/admin/manageOrder-route';
-import userCartRoutes from './src/routes/users/cart-route';
-import userDetailRouter from './src/routes/users/address-route';
-import dashboardRoute from './src/routes/admin/dashboard-route';
+import authrouter from './src/routes/users/auth-route.js';
+import adminAuthRoute from './src/routes/admin/auth-route.js';
+import manageProductRouter from './src/routes/admin/manageProduct-route.js';
+import userproductRouter from './src/routes/users/products-route.js';
+import orderRoutes from './src/routes/users/order-route.js';
+import manageOrdersRoute from './src/routes/admin/manageOrder-route.js';
+import userCartRoutes from './src/routes/users/cart-route.js';
+import userDetailRouter from './src/routes/users/address-route.js';
+import dashboardRoute from './src/routes/admin/dashboard-route.js';
 
 // Define error interface
 interface CustomError extends Error {
