@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": " node server.js",
-    "dev": "nodemon --exec tsx server.ts",
+    "start": " node ./app/server.js",
+    "dev": "nodemon --exec tsx ./app/server.ts",
     "dev:build": "nodemon server.js",
     "clean": "rm -rf dist"
   },
